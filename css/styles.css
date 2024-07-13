@@ -118,14 +118,14 @@ img {
 }
 
 .nav-link.current::after {
-content: '';
-position: absolute;
-left: 0;
-bottom: -1px;
-width: 100%;
-height: 4px;
-background-color: #404bbf;
-border-radius: 2px;
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 100%;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
 }
 
 .address {
@@ -165,6 +165,14 @@ border-radius: 2px;
     background-color: #2e2f42;
     padding-top: 188px;
     padding-bottom: 188px;
+
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .hero-container {}
