@@ -166,11 +166,11 @@ img {
     padding-top: 188px;
     padding-bottom: 188px;
 
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    
+
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -216,6 +216,7 @@ img {
 
 .about-list {
     display: flex;
+    justify-content: center;
     gap: 24px;
 }
 
@@ -223,7 +224,51 @@ img {
     width: calc((100% - 3 * 24px) / 4);
 }
 
+.about-thumb {
+    background-color: #f4f4fd;
+    height: 112px;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.about-icon {}
+
 /* --------- Third section Team --------- */
+.icon-container {}
+
+.icon-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.footer-icon {
+    gap: 16px;
+}
+
+.icon-item {}
+
+.icon-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #4D5AE5;
+    border-radius: 50%;
+    margin-bottom: 32px;
+}
+
+.icon-svg {
+    /* width: 16px;
+    height: 16px; */
+    fill: #f4f4fd;
+
+}
 
 .team {
     background-color: #f4f4fd;
@@ -288,6 +333,8 @@ img {
     text-align: center;
 }
 
+
+
 /* --------- Forth section Portfolio --------- */
 .portfolio {}
 
@@ -314,7 +361,10 @@ img {
     padding-bottom: 100px;
 }
 
-.footer-container {}
+.footer-container {
+    display: flex;
+    gap: 120px;
+}
 
 .footer-text {
     max-width: 264px;
@@ -327,4 +377,17 @@ img {
 
 .footer-textcolor {
     color: #f4f4fd;
+}
+
+.social-container {}
+
+.logo-container {}
+
+.footer-social {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
 }
